@@ -19,7 +19,7 @@ function inicialMessage(){
 function verificarChute(){
   let tryKick = document.querySelector('input').value;
   let worldTentativa = attempts > 1 ? `tentativas` : 'tentativa';
-  let messageAttempt = `Você descrobriu o numero Secreto com ${attempts} ${worldTentativa}!`;
+  let messageAttempt = `Você descobriu o numero Secreto com ${attempts} ${worldTentativa}!`;
 
   if (tryKick == secretNumber){
     showText(`h1`,`Parabéns`);
